@@ -30,6 +30,7 @@
   "bin": {
     "vectorinox": "./dist/bin.js"
   },
+  "main": "./src/index.ts",
   "scripts": {
     "build": "./node_modules/.bin/tsc",
     "prepublish": "npm run build",
